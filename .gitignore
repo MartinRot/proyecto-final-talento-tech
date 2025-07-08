@@ -1,0 +1,5 @@
+# Ignore Node.js module dependencies
+node_modules/
+
+# Ignore sensitive information (e.g., environment variables)
+.env
