@@ -21,7 +21,17 @@ const firebaseConfig = {
   storageBucket: "proyecto-final-talentotech.firebasestorage.app",
   messagingSenderId: "1020721642123",
   appId: "1:1020721642123:web:d29382c3552081fa8e328e"
-}; */
+  };
+
+  .env
+  FIREBASE_API_KEY=AIzaSyB0Z-w4YRdKFobJqGTFyQjxkZdy3XtM0bA
+  FIREBASE_AUTH_DOMAIN=proyecto-final-talentotech.firebaseapp.com
+  FIREBASE_PROJECT_ID=proyecto-final-talentotech
+  FIREBASE_STORAGE_BUCKET=proyecto-final-talentotech.firebasestorage.app
+  FIREBASE_MESSAGING_SENDER_ID=1020721642123
+  FIREBASE_APP_ID=1:1020721642123:web:d29382c3552081fa8e328e
+  JWT_SECRET_KEY=miclaveultrasecreta123456
+ */
 
 // Inicializa Firebase
 const app = initializeApp(firebaseConfig);
