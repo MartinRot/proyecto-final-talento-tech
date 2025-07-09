@@ -21,7 +21,7 @@ API RESTful desarrollada con Node.js, Express, Firebase Firestore y JWT como aut
 2. Instalá las dependencias
     - npm install
 
-3. Configurá las variables de entorno en un archivo .env:
+3. Configurá las variables de entorno en un archivo .env: (Las encontras en config/firebase.js)
     - PORT=3000
     - JWT_SECRET_KEY=tu_clave_secreta
     - FIREBASE_API_KEY=...
